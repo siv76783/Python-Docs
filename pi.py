@@ -1,6 +1,7 @@
 from random import random
 from operator import add
 
+#Compute value of PI using pyspark
 from pyspark import SparkContext
 
 sc = SparkContext(appName="PythonPi")
